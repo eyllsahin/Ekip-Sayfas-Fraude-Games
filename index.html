@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Fraude Games | Psychological Horror Studio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class="fraude">
+  <!-- TASK 2.1 - Navbar -->
+  <nav class="fg-navbar">
+    <a class="fg-brand" href="index.html" aria-label="The Fraude Games ana sayfa">
+      <img src="logo.svg" alt="The Fraude Games neon kelebek logosu" class="fg-logo"/>
+      <span class="fg-brand-text">The Fraude Games</span>
+    </a>
+
+    <!-- Pure CSS hamburger (JS yok) -->
+    <input id="fg-menu-toggle" class="fg-menu-toggle" type="checkbox" />
+    <label for="fg-menu-toggle" class="fg-burger" aria-label="Menüyü Aç/Kapat">
+      <span></span><span></span><span></span>
+    </label>
+
+    <ul class="fg-navlinks">
+      <li><a href="#about">Hakkımızda</a></li>
+      <li><a href="#services">Hizmetler</a></li>
+      <li><a href="#games">Oyunlar</a></li>
+      <li><a href="task2.html">Paketler</a></li>
+      <li><a href="team.html">Ekibimiz</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- TASK 2.1 - Hero (Desktop: Yazı Sol + Görsel Sağ / Mobile: Görsel Üst + Yazı Alt) -->
+  <header class="fg-hero" role="banner">
+    <div class="fg-hero-inner">
+      <div class="fg-hero-text">
+        <p class="fg-kicker">Psychological Horror • Neon Blue • Deep Purple</p>
+        <h1>Korku, <span>Akılda</span> Başlar.</h1>
+        <p class="fg-sub">
+          Biz, korkuyu çığlıkla değil; suçluluk, paranoya, bilinçaltı ve rahatsız edici sessizlikle anlatırız.
+        </p>
+
+        <div class="fg-hero-cta">
+          <a class="fg-btn fg-btn-primary" href="#games">Evreni Keşfet</a>
+          <a class="fg-btn fg-btn-ghost" href="task2.html">Paketleri Gör</a>
+        </div>
+
+        <div class="fg-stats">
+          <div class="fg-stat">
+            <span class="fg-stat-value">Neon</span>
+            <span class="fg-stat-label">atmosfer tasarımı</span>
+          </div>
+          <div class="fg-stat">
+            <span class="fg-stat-value">Psy</span>
+            <span class="fg-stat-label">psikolojik anlatı</span>
+          </div>
+          <div class="fg-stat">
+            <span class="fg-stat-value">Indie</span>
+            <span class="fg-stat-label">bağımsız ruh</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="fg-hero-art" aria-hidden="true">
+        <div class="fg-art-card">
+          <img src="logo.svg" alt="" class="fg-art-logo"/>
+          <div class="fg-art-lines"></div>
+          <p class="fg-art-quote">“Oyun bittiğinde değil, kapattığında başlar.”</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fg-orb fg-orb-1" aria-hidden="true"></div>
+    <div class="fg-orb fg-orb-2" aria-hidden="true"></div>
+    <div class="fg-grid" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section id="about" class="fg-section">
+      <h2>Hakkımızda</h2>
+      <p>
+        The Fraude Games, korkuyu bir “an” değil; zihnin içinde yavaşça büyüyen bir “his” olarak kurgular.
+        Hikâyelerimizde doğru-yanlış, suçlu-masum çizgisi asla net değildir.
+      </p>
+    </section>
+
+    <!-- TASK 2.1 - Services Grid (Desktop 3 / Tablet 2 / Mobile 1) -->
+    <section id="services" class="fg-section fg-section-dark">
+      <h2>Hizmetler</h2>
+      <p>Stüdyo içi üretim yaklaşımımız (tasarım + anlatı + atmosfer).</p>
+
+      <div class="fg-services-grid">
+        <article class="fg-service">
+          <h3>Atmosfer Tasarımı</h3>
+          <p>Neon ışık, gölge ve ritim ile gerilimi “yavaşça” yükseltiriz.</p>
+        </article>
+        <article class="fg-service">
+          <h3>Ses & Ambiyans</h3>
+          <p>Minimal seslerle maksimum rahatsızlık. Sessizlik bile “sahne” olur.</p>
+        </article>
+        <article class="fg-service">
+          <h3>Narrative Design</h3>
+          <p>Metaforik korku. Oyuncu, hikâyenin tanığı değil “suç ortağıdır”.</p>
+        </article>
+        <article class="fg-service">
+          <h3>Level Mood</h3>
+          <p>Alanları sadece geometriyle değil, hisle inşa ederiz.</p>
+        </article>
+        <article class="fg-service">
+          <h3>Playtest</h3>
+          <p>“Korku ölçülür.” Geri bildirimle gerilimi kalibre ederiz.</p>
+        </article>
+        <article class="fg-service">
+          <h3>Release Plan</h3>
+          <p>Demo, trailer ve lansman akışını stüdyo diliyle hazırlarız.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="games" class="fg-section">
+      <h2>Oyunlar</h2>
+      <div class="fg-cards">
+        <article class="fg-card">
+          <div class="fg-card-top">
+            <span class="fg-chip">In Development</span>
+            <span class="fg-chip fg-chip-blue">Psych Horror</span>
+          </div>
+          <h3>Project: FRAUDE</h3>
+          <p>Gerçeğin yalan söylediği bir evrende, tek tanık sensin.</p>
+          <ul class="fg-bullets">
+            <li>Yavaş gerilim • Neon noir</li>
+            <li>Seçimler, vicdanı “kazır”</li>
+            <li>Çok katmanlı anlatı</li>
+          </ul>
+        </article>
+
+        <article class="fg-card">
+          <div class="fg-card-top">
+            <span class="fg-chip">Prototype</span>
+            <span class="fg-chip fg-chip-purple">Narrative</span>
+          </div>
+          <h3>Neon Chrysalis</h3>
+          <p>Bir kelebeğin kanadı kadar güzel… ve bir kabus kadar yakın.</p>
+          <ul class="fg-bullets">
+            <li>Rüya-mekanik geçişleri</li>
+            <li>Boğucu ambient ses</li>
+            <li>Metaforik korku</li>
+          </ul>
+        </article>
+
+        <article class="fg-card fg-card-highlight">
+          <div class="fg-card-top">
+            <span class="fg-chip">Studio Pillar</span>
+            <span class="fg-chip fg-chip-blue">Design</span>
+          </div>
+          <h3>Fraude Manifesto</h3>
+          <p>Korku “anlık” değildir. Kalıcı iz, tasarımdan doğar.</p>
+          <a class="fg-link" href="task2.html">Paketleri İncele →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="fg-footer">
+    <p>© 2026 The Fraude Games — Psychological Horror Studio</p>
+    <p class="fg-footer-sub">Task 2.2 sayfası: <a href="task2.html">task2.html</a></p>
+  </footer>
+</body>
+</html>
