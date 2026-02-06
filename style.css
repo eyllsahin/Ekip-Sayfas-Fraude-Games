@@ -380,15 +380,6 @@ body.fraude h1 span {
   filter: drop-shadow(0 0 18px rgba(0,229,255,0.35));
 }
 
-.fg-art-lines {
-  height: 90px;
-  margin-top: 14px;
-  border-radius: 16px;
-  background: linear-gradient(90deg, rgba(0,229,255,0.25), rgba(123,44,255,0.25)),
-              radial-gradient(circle at 20% 30%, rgba(0,229,255,0.22), transparent 55%);
-  opacity: 0.9;
-}
-
 .fg-art-quote { margin: 14px 0 0 0; opacity: 0.86; text-align: center; }
 
 .fg-orb {
