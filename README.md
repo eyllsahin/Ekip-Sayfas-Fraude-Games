@@ -19,4 +19,4 @@ Bu repo iki görev içerir:
 - `style.css`
 - `logo.svg`
 
-> Not: Flex/Grid kullanılan yerlerde **neden** yazıldığı `style.css` içinde yorum satırlarıyla açıklanmıştır.
+
